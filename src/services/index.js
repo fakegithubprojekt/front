@@ -4,7 +4,7 @@ import $router from '@/router'
 
 // instanca axios-a za potrebe backenda
 let Service = axios.create({
-    baseURL: 'http://localhost:3000/',
+    baseURL: 'https://terrific-changeable-caterpillar.glitch.me/',
     timeout: 1000,
 });
 
